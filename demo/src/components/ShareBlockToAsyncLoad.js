@@ -2,12 +2,7 @@ import React from 'react';
 
 import { ShareButtonRectangle, ShareBlockStandard } from '../../../src';
 
-import FaTwitter from 'react-icons/lib/fa/twitter';
-import FaFacebook from 'react-icons/lib/fa/facebook';
-import FaGooglePlus from 'react-icons/lib/fa/google-plus';
-import FaEnvelope from 'react-icons/lib/fa/envelope';
-import FaPinterest from 'react-icons/lib/fa/pinterest';
-import FaLinkedin from 'react-icons/lib/fa/linkedin';
+import { FaTwitter, FaFacebook, FaGooglePlus, FaEnvelope, FaPinterest, FaLinkedin } from 'react-icons/fa';
 
 const ShareBlockToAsyncLoad = props => {
   const shareBlockProps = {

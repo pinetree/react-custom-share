@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { css } from 'emotion';
 
-import FaRedditAlien from 'react-icons/lib/fa/reddit-alien';
+import { FaRedditAlien } from 'react-icons/fa';
 
 import {
   ShareBlockStandard,
